@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 5em;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: rgb(232, 198, 232);
+}
+
+.right_section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo {
+    width: 4em;
+}
+
+.header_text {
+    font-size: 8px;
+    line-height: 1;
+}
+
+.header_text h2 {
+    margin: 0;
+}
+
+.header_text h2 span {
+    color: rgb(89, 78, 89);
+}
+
+.header_text p {
+    margin: 2px 0 0;
+    font-size: 7px;
+}
+
+.left_section {
+    display: flex;
+    align-items: center;
+}
+
+.menu_bar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu_bar a {
+    text-decoration: none;
+    color: rgb(194, 152, 204);
+    font-size: 14px;
+}
+
+.menuitem1 {
+    border-bottom: 2px solid rgb(213, 170, 213);
+    padding-bottom: 5px;
+}
+
+.menuitem1 a {
+    color: rgb(194, 147, 194);
+}
+
+.menu_bar button {
+    background-color: rgb(213, 170, 213);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
