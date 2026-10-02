@@ -118,14 +118,40 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px 6%;
-    background-color: #fff8f5;
+    background-color: #b788b5
 }
 
 .about_image {
-    width: 42%;
+    width: 32%;
 }
 
 .about_image img {
     width: 100%;
     border-radius: 10px;
+}
+.about_text {
+    width: 45%;
+}
+
+.about_text h2 {
+    font-size: 30px;
+    color: #6b2942;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.about_text h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #c77b96;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+.about_text p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
 }
