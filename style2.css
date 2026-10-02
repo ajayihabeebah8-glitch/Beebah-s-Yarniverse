@@ -50,12 +50,12 @@
 
 .menu_bar a {
     text-decoration: none;
-    color: rgb(194, 152, 204);
+    color: rgb(205, 37, 247);
     font-size: 14px;
 }
 
 .menuitem1 {
-    border-bottom: 2px solid rgb(213, 170, 213);
+    border-bottom: 2px solid rgb(103, 9, 103);
     padding-bottom: 5px;
 }
 
@@ -64,11 +64,68 @@
 }
 
 .menu_bar button {
-    background-color: rgb(213, 170, 213);
+    background-color: #c77b96;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 14px;
     cursor: pointer;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 6%;
+    background-color: #f8eeee;
+}
+
+.home_text {
+    width: 42%;
+}
+
+.home_text h1 {
+    font-size: 32px;
+    color: #3d3033;
+    margin-bottom: 10px;
+}
+
+.home_text p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.home_text button {
+    background-color: #c77b96;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.home_image {
+    width: 42%;
+}
+
+.home_image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 6%;
+    background-color: #fff8f5;
+}
+
+.about_image {
+    width: 42%;
+}
+
+.about_image img {
+    width: 100%;
+    border-radius: 10px;
 }
